@@ -15,12 +15,17 @@ export const Container = styled.div`
       line-height: 1.5rem;
     }
 
-    tr {
-      border-radius: 1.25rem;
+    tr:first-child td:first-child {
+      border-top-left-radius: 0.25rem;
     }
-
-    &.linha {
-      border-radius: 1.25rem;
+    tr:first-child td:last-child {
+			border-top-right-radius: 0.25rem;
+    }
+    tr:last-child td:first-child {
+			border-bottom-left-radius: 0.25rem;
+    }
+    tr:last-child td:last-child {
+      border-bottom-right-radius: 0.25rem;
     }
 
     td {
@@ -28,7 +33,7 @@ export const Container = styled.div`
       border: 0;
       background: var(--shape);
       color: var(--text-body);
-      border-radius: 0.25rem;
+      /* border-radius: 1.25rem; */
 
       &:first-child {
         color: var(--text-title);
