@@ -14,7 +14,7 @@ createServer({
         {
           id: 1,
           title: "Salário",
-          value: "2000",
+          value: 2000,
           type: "deposit",
           category: "salary",
           createdAt: new Date("2020-01-01 09:00:00"),
@@ -22,7 +22,7 @@ createServer({
         {
           id: 2,
           title: "Aluguel",
-          value: "500",
+          value: 500,
           type: "withdraw",
           category: "rent",
           createdAt: new Date("2020-01-02 09:00:00"),
@@ -30,7 +30,7 @@ createServer({
         {
           id: 3,
           title: "Luz",
-          value: "100",
+          value: 100,
           type: "withdraw",
           category: "utilities",
           createdAt: new Date("2020-01-03 09:00:00"),
